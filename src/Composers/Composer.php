@@ -4,7 +4,6 @@ namespace Industrious\Flash\Composers;
 
 use Illuminate\Contracts\View\View;
 
-
 abstract class Composer
 {
     /** @var array */
