@@ -29,7 +29,7 @@ use Industrious\Flash\Traits\FlashesMessages;
 
 ...
 
-uses FlashesMessages;
+use FlashesMessages;
 ```
 You will then have access to the method and be able to use it as below;
 
