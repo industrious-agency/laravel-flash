@@ -1,0 +1,24 @@
+{
+    "name": "industrious/laravel-flash",
+    "description": "Simple laravel flash package used across systems",
+    "authors": [
+        {
+            "name": "Rahman Younus",
+            "email": "rahman@industrious.agency"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Industrious\\Flash\\": "src/"
+        },
+        "files": []
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Industrious\\Flash\\FlashServiceProvider"
+            ]
+        }
+    }
+}
