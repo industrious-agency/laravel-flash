@@ -22,7 +22,16 @@ You will need to include the below partials in layouts file, so its available on
 
 ##### Controllers:
 
-To use it, simply include FlashesMessages Trait in all controllers. Then you will be able to use it like below;
+To use it, simply include `FlashesMessages` Trait where required.
+
+```php
+use Industrious\Flash\Traits\FlashesMessages;
+
+...
+
+uses FlashesMessages;
+```
+You will then have access to the method and be able to use it as below;
 
 ```php
 $this->flash('danger', 'Session has expired due to inactivity');
