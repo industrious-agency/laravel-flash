@@ -2,6 +2,8 @@
 
 namespace Industrious\Flash\Traits;
 
+use Industrious\Flash\Flash;
+
 trait FlashesMessages
 {
     /** Get the flash service and optionally flash a message.
@@ -9,7 +11,7 @@ trait FlashesMessages
      * @param string|null $type
      * @param string|null $message
      *
-     * @return \Industrious\Flash\Traits\Flash
+     * @return \Industrious\Flash\Flash
      */
     protected function flash(string $type = null, string $message = null): Flash
     {
