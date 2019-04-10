@@ -19,7 +19,7 @@ class FlashServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/Views', 'industrious-flash');
         
         $this->publishes([
-            __DIR__.'/Views' => resource_path('views/vendor/laravel-flash'),
+            __DIR__.'/Views' => resource_path('views/vendor/industrious-flash'),
         ]);
 
         $view = $this->app['view'];
