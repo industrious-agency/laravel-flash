@@ -11,7 +11,10 @@ class FlashServiceProvider extends ServiceProvider
 {
     /** @var array */
     protected $composers = [
-        Composers\FlashComposer::class => 'industrious-flash::flash-messages',
+        Composers\FlashComposer::class => [
+            'industrious-flash::flash-messages',
+            'vendor.industrious-flash.flash-messages'
+        ],
     ];
 
     public function boot()
